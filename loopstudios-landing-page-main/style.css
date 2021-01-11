@@ -1,8 +1,37 @@
-body {
-    background-color: aqua;
+/* CONFIG */
+@font-face {
+  font-family: "Alata";
+  font-weight: 400;
+  src: url("/loopstudios-landing-page-main/fonts/Alata/Alata-Regular.ttf");
+}
+@font-face {
+  font-family: "Josefin_Sans";
+  font-weight: 300;
+  src: url("/loopstudios-landing-page-main/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+/*- White: hsl(0, 0%, 100%)
+- Black: hsl(0, 0%, 0%)
+- Dark Gray: hsl(0, 0%, 55%)
+- Very Dark Gray: hsl(0, 0%, 41%)*/
+
+/* ALL */
+.container {
+  width: 1440px;
+  margin: auto;
+  background-color: aqua;
+  font: "Alata";
+  font-size: 15px;
+}
+.is-title {
+  font: "Josefin_Sans";
 }
 /* HEADER */
-
+.header {
+  background-image: url("images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+}
 /* MAIN */
 
 /* FOOTER */
