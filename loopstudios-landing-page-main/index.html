@@ -13,22 +13,26 @@
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="container">
   <header class="header">
     <nav class="header__nav">
       <div class="header__logo"><img src="images/logo.svg" /></div>
       <div class="header__menu">
-        <ul>
+        <ul class="header__menuItems">
           <li class="header__menuItem header__menuItem--active">About</li>
-          <li class="header__menuItem">Careers</li>
-          <li class="header__menuItem">Events</li>
-          <li class="header__menuItem">Products</li>
-          <li class="header__menuItem">Support</li>
+          <li class="header__menuItem header__menuItem--active">Careers</li>
+          <li class="header__menuItem header__menuItem--active">Events</li>
+          <li class="header__menuItem header__menuItem--active">Products</li>
+          <li class="header__menuItem header__menuItem--active">Support</li>
         </ul>
       </div>
     </nav>
 
-    <div class="subtitle">Immersive experiences that deliver</div>
+    <div class="header__left">
+      <div class="header__subtitle">
+        <h1>Immersive<br>experiences<br>that deliver</h1>
+      </div>
+    </div>
   </header>
   <main>
     <section class="hero">
