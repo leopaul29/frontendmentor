@@ -30,7 +30,14 @@
   font-size: 15px;
 }
 h1 {
-  font: "Josefin_Sans";
+  text-transform: uppercase;
+  font-family: "Josefin_Sans";
+  font-size: 70px;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Josefin_Sans";
+  font-size: 48px;
 }
 /* HEADER */
 .header {
@@ -75,15 +82,9 @@ h1 {
   padding-right: 100px;
   border: hsl(0, 0%, 100%) 2px solid;
 }
-.header__subtitle h1 {
-  text-transform: uppercase;
-  font-family: "Josefin_Sans";
-  font-size: 70px;
-}
 /* MAIN */
 .hero {
-  margin: 100px 0;
-  padding: 0 150px;
+  margin: 100px 150px;
   position: relative;
 }
 .hero__image {
@@ -111,6 +112,34 @@ h1 {
 .hero__proposText {
   position: absolute;
   bottom: 0px;
+}
+/* CREATIONS */
+.creations {
+  margin: 100px 150px;
+}
+.creation__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.creation__title {
+}
+.button__text {
+  text-transform: uppercase;
+  font-family: "Josefin_Sans";
+  font-size: 20px;
+  font-weight: bolder;
+}
+.creation__button {
+  border: hsl(0, 0%, 0%) 2px solid;
+  display: flex;
+  padding: 10px 30px;
+}
+.creation__button--active:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
 }
 /* FOOTER */
 .attribution {
