@@ -26,6 +26,11 @@
 .container {
   width: 1440px;
   margin: auto;
+}
+.section {
+  margin: 0 160px;
+}
+main {
   background-color: hsl(0, 0%, 100%);
   font-size: 15px;
 }
@@ -43,9 +48,6 @@ h2 {
 }
 h3 {
   font-size: 30px;
-}
-.section{
-  margin: 100px 160px;
 }
 /* HEADER */
 .header {
@@ -188,6 +190,10 @@ h3 {
   margin: 40px;
 }
 /* FOOTER */
+.footer {
+  background-color: hsl(0, 0%, 0%);
+}
+/* ATTRIBUTION */
 .attribution {
   font-size: 11px;
   text-align: center;
