@@ -39,6 +39,7 @@ h2,
 h3 {
   text-transform: uppercase;
   font-family: "Josefin_Sans";
+  font-weight: 300;
 }
 h1 {
   font-size: 70px;
@@ -81,7 +82,7 @@ h3 {
   margin: 0 auto;
   width: 25%;
   padding-top: 10px;
-  border-bottom: hsl(0, 0%, 100%) solid 3px;
+  border-bottom: hsl(0, 0%, 100%) solid 2px;
 }
 .header__left {
   display: flex;
@@ -133,19 +134,21 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 50px;
-}
-.button__text {
-  text-transform: uppercase;
-  font-family: "Josefin_Sans";
-  font-size: 20px;
-  font-weight: bolder;
+  margin-bottom: 80px;
 }
 .creation__button {
   border: hsl(0, 0%, 0%) 2px solid;
   border-radius: 3px;
-  display: flex;
-  padding: 10px 30px;
+  padding: 10px 50px;
+  vertical-align: auto;
+  margin-bottom: auto;
+  text-transform: uppercase;
+  font-family: "Josefin_Sans";
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  transform: scale(0.8, 1);
+  display: inline-block;
 }
 .creation__button--active:hover {
   cursor: pointer;
@@ -164,6 +167,13 @@ h3 {
   display: flex;
   margin-bottom: 30px;
   cursor: pointer;
+}
+.creation__item:hover {
+  opacity: 0.5;
+}
+.creation__item:hover h3 {
+  color:hsl(0, 0%, 0%);
+  opacity: 1 !important;
 }
 .creation__item:nth-child(1) {
   background-image: url("images/desktop/image-deep-earth.jpg");
@@ -208,7 +218,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 }
-.footer__logo {
+.footer__top {
   margin-bottom: 30px;
 }
 .footer__rss {
@@ -218,6 +228,9 @@ footer {
 }
 .footer__rs {
   width: 45px;
+}
+.footer__rs > img:hover {
+  cursor: pointer;
 }
 .footer__menuItems {
   display: flex;
