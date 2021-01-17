@@ -1,0 +1,12 @@
+{
+  "name": "loopstudios-landing-page-main",
+  "version": "1.0.0",
+  "description": "Loopstudios landing page coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --watch app/scss:dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leopaul29",
+  "license": "ISC"
+}
