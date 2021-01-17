@@ -1,0 +1,48 @@
+/* HEADER */
+.header {
+  background-image: url("../../images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  height: 550px;
+  padding: 60px 160px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 150px;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__menuItems {
+  display: flex;
+  flex-direction: row;
+}
+.header__menuItem {
+  width: 80px;
+  text-align: center;
+}
+.header__menuItem--active:hover {
+  cursor: pointer;
+}
+/* https://www.steckinsights.com/shorten-length-border-bottom-pure-css/*/
+.header__menuItem--active:hover::after {
+  transition: 0.2s all ease-in-out;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+  padding-top: 10px;
+  border-bottom: hsl(0, 0%, 100%) solid 2px;
+}
+.header__left {
+  display: flex;
+}
+.header__logo img{
+  cursor: pointer;
+}
+.header__subtitle {
+  margin-top: 100px;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  border: hsl(0, 0%, 100%) 2px solid;
+}

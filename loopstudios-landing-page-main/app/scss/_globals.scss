@@ -1,0 +1,52 @@
+/* CONFIG */
+@font-face {
+  font-family: "Alata";
+  font-weight: 400;
+  src: url("../../fonts/Alata/Alata-Regular.ttf");
+}
+@font-face {
+  font-family: "Josefin_Sans";
+  font-weight: 300;
+  src: url("../../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+/*- White: hsl(0, 0%, 100%)
+- Black: hsl(0, 0%, 0%)
+- Dark Gray: hsl(0, 0%, 55%)
+- Very Dark Gray: hsl(0, 0%, 41%)*/
+
+/* ALL */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Alata";
+}
+.container {
+  width: 1440px;
+  margin: auto;
+}
+.section {
+  margin: 0 160px;
+}
+main {
+  background-color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-family: "Josefin_Sans";
+  font-weight: 300;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 30px;
+}

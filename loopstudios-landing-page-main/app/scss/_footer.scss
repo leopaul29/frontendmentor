@@ -1,0 +1,62 @@
+/* FOOTER */
+footer {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+.footer {
+  padding-top: 50px;
+}
+.footer__top,
+.footer__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__top {
+  margin-bottom: 30px;
+}
+.footer__rss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__rs {
+  width: 45px;
+}
+.footer__rs > img:hover {
+  cursor: pointer;
+}
+.footer__menuItems {
+  display: flex;
+  flex-direction: row;
+}
+.footer__menuItem {
+  width: 100px;
+  display: flex;
+}
+.footer__menuItem--active:hover {
+  cursor: pointer;
+}
+.footer__menuText--active:hover::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 10px;
+  border-bottom: hsl(0, 0%, 100%) solid 3px;
+}
+.footer__bottom {
+  padding-bottom: 50px;
+}
+.footer__note {
+  color: hsl(0, 0%, 55%);
+}
+/* ATTRIBUTION */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

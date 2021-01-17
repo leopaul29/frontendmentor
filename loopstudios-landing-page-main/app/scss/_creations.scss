@@ -1,0 +1,58 @@
+/* CREATIONS */
+.creations {
+  margin-bottom: 150px;
+}
+.creation__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.creation__button {
+  border: hsl(0, 0%, 0%) 2px solid;
+  border-radius: 3px;
+  padding: 10px 50px;
+  vertical-align: auto;
+  margin-bottom: auto;
+  text-transform: uppercase;
+  font-family: "Josefin_Sans";
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  transform: scale(0.8, 1);
+  display: inline-block;
+}
+.creation__button--active:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  transition: 0.2s all ease-in-out;
+}
+/* CREATIONS ITEMS */
+.creation__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.creation__item {
+  width: 256px; /* Or whatever */
+  height: 450px; /* Or whatever */
+  position: relative;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.creation__item:hover img {
+  transition: 0.2s all ease-in-out;
+  opacity: 0.5;
+}
+.item__title {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: hsl(0, 0%, 100%);
+}
+.creation__item:hover .item__title {
+  transition: 0.2s all ease-in-out;
+  opacity: 1;
+  color: hsl(0, 0%, 0%);
+}
