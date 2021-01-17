@@ -4,7 +4,8 @@
   "description": "Loopstudios landing page coding challenge",
   "main": "index.js",
   "scripts": {
-    "build": "sass --watch app/scss:dist",
+    "dev": "sass --watch app/scss:dist",
+    "build": "sass app/scss:dist --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "leopaul29",
